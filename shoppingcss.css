@@ -1,4 +1,8 @@
 
+
+/* --- Header --- */ 
+
+
 .masthead {
 
 background-image: url(http://i173.photobucket.com/albums/w79/Luke_Bucciarelli/url_zpsew5f0bqt.jpg);
@@ -13,6 +17,9 @@ h1 {
 	color: #0F2E4C;
 	font-family: sans-serif;
 }
+
+/* --- Content --- */ 
+
 
 .maincontent {
 padding: 100px;
@@ -33,6 +40,22 @@ font-family: sans-serif;
     padding-left: 25px;
     padding-right: 25px;
 
+}
+
+.got {
+	text-decoration: line-through;
+}
+
+.need {
+
+
+}
+
+.done {
+	display: inline-block;
+	background-color: #0F2E4C;
+	color: white;
+	border-radius: 5px;
 }
 
 
