@@ -1,11 +1,19 @@
 
 $(document).ready(function(){
 
-$('.done').on('click', function(event){
+/*	start mentor JS code  
+	========================== */
+	$('.js-check-item-button').on('click', function(event){
+		$(this).parent().toggleClass('done');
+	});
+/*	end mentor JS code  
+	========================== */
 
-	$(this).parent().removeClass('need')
-	.addClass('got');
-});
+// $('.done').on('click', function(event){
+
+// 	$(this).parent().removeClass('need')
+// 	.addClass('got');
+// });
 
 $('.addtolist').on('click', function(event){
 

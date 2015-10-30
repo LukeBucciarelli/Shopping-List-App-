@@ -47,7 +47,41 @@ background-color: #E4E4E4;
 
 } 
 
-ul {
+/* 	start mentor CSS code 
+	===================== */
+.shopping-list {
+	width: 500px;
+	margin: auto;
+
+	text-align: left;
+	list-style: none;
+}
+
+.shopping-list__item {
+	padding: 10px 0;
+
+	color: red;
+}
+
+.shopping-list__item.done {
+	color: #0F2E4C;
+	text-decoration: line-through;
+}
+
+.shopping-list__item__button {
+	float: right;
+
+	color: white;
+	background-color: #0F2E4C;
+	border-radius: 5px;
+
+	cursor: pointer;
+	outline: none;
+}
+/* 	end mentor CSS code 
+	===================== */
+
+/*ul {
 	list-style: none;
 	text-align: left;
 }
@@ -74,7 +108,7 @@ ul {
 	color: white;
 	border-radius: 5px;
 	float: right;
-}
+}*/
 
 
 /* --- Footer --- */ 
