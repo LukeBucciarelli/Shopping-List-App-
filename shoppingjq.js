@@ -1,16 +1,29 @@
-$(document).ready(function(){ 
+
+$(document).ready(function(){
+
+$('.done').on('click', function(event){
+
+	$(this).parent().removeClass('need')
+	.addClass('got');
+});
+
+$('.addtolist').on('click', function(event){
 
 
-$('need').on('click', 'div', function(event){
-  // fires when any LIs are clicked on
-  // including LIs that aren't on the page when it is initially loaded
+console.log($('.inputitem').text());
 });
 
 
+} ); 
 
 
 
 
 
 
-}
+
+
+
+
+
+
