@@ -1,4 +1,6 @@
-
+body {
+	margin: 0;
+}
 
 /* --- Header --- */ 
 
@@ -13,6 +15,7 @@ font-family: sans-serif;
 }
 
 h1 {
+	margin: 0;
 	padding: 10px;
 	color: #0F2E4C;
 	font-family: sans-serif;
@@ -115,10 +118,10 @@ background-color: #E4E4E4;
 
 .footie {
 	background-color: #C9C9C9;
+	text-align: center;
 }
 
 .shoutout {
-	text-align: center;
 	color: #0F2E4C;
 	font-family: sans-serif;
 	width: 300px;
@@ -128,7 +131,6 @@ background-color: #E4E4E4;
 
 
 .copy{
-	text-align: center;
 	color: #0F2E4C;
 	font-family: sans-serif;
 	width: 300px;
@@ -138,8 +140,6 @@ background-color: #E4E4E4;
 }
 
 .social {
-	display: inline-block;
-	text-align: center;
 	color: #0F2E4C;
 	float: center;
 }
