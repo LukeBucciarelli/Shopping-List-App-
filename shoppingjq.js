@@ -13,10 +13,12 @@ $(document).ready(function(){
 		// fetching input value
 		var todoString = $('.inputitem').val();
 
-		// fetching inout value
+		// creating list item
 		var $listItem = $('<li></li>');
 		$listItem.addClass('shopping-list__item');
+		$listItem.text(todoString);
 
+		// creating done button
 		var $doneButton = $('<button></button>');
 		$doneButton.addClass('shopping-list__item__button');
 		$doneButton.addClass('js-check-item-button');
@@ -25,11 +27,13 @@ $(document).ready(function(){
 			$(this).parent().toggleClass('done');
 		});
 
-		$listItem.text(todoString);
+		// appending done button to list item
 		$listItem.append($doneButton);
 
+		// appending list item to list
 		$('.shopping-list').append($listItem);
 
+		// resetting input value
 		$('.inputitem').val('');
 	});
 
